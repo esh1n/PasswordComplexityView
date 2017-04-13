@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordComplexityView">
+        <attr name="circleRadiusSize" format="dimension" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="spaceBetweenCircles" format="dimension" />
+        <attr name="spaceBetweenCirclesAndText" format="dimension" />
+        <attr name="circlesCount" format="integer" />
+        <attr name="startState" format="string" />
+    </declare-styleable>
+</resources>

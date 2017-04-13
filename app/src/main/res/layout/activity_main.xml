@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.esh1n.passwordcomplexity.widget.PasswordComplexityView
+        android:id="@+id/password_complexity_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:circleRadiusSize="10dp"
+        app:circlesCount="4"
+        app:spaceBetweenCircles="16dp"
+        app:spaceBetweenCirclesAndText="24dp"
+        app:startState="MEDIUM"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:titleTextSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/weak"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Weak" />
+
+        <Button
+            android:id="@+id/strong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="Strong" />
+
+        <Button
+            android:id="@+id/middle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="Middle" />
+    </LinearLayout>
+
+
+</LinearLayout>
